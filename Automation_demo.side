@@ -1,0 +1,110 @@
+{
+  "id": "fa463841-c518-42d0-8fab-0806ec33ee49",
+  "version": "2.0",
+  "name": "Automation_demo",
+  "url": "https://www.researchgate.net/",
+  "tests": [{
+    "id": "ddd65c01-a826-4c4f-b2b0-46bc0e038ac5",
+    "name": "TestOne",
+    "commands": [{
+      "id": "e9e715ba-4c7c-4d38-9475-155ac34c0f29",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.researchgate.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d18cd5a-26ea-4d65-aa19-135d0ba8ee59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b16e45de-2eba-480d-8e31-1ea96f668091",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-action",
+      "targets": [
+        ["id=header-search-action", "id"],
+        ["name=query", "name"],
+        ["css=#header-search-action", "css:finder"],
+        ["xpath=//input[@id='header-search-action']", "xpath:attributes"],
+        ["xpath=//div[@id='rgw19_65e4468104f8d']/header/nav/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06500bf7-77d9-4db1-8689-ee54047ba0aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-action",
+      "targets": [
+        ["id=header-search-action", "id"],
+        ["name=query", "name"],
+        ["css=#header-search-action", "css:finder"],
+        ["xpath=//input[@id='header-search-action']", "xpath:attributes"],
+        ["xpath=//div[@id='rgw19_65e44690e0d8f']/header/nav/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac63ffc-501c-4960-b27a-04b5ac1b929d",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search-action",
+      "targets": [
+        ["id=header-search-action", "id"],
+        ["name=query", "name"],
+        ["css=#header-search-action", "css:finder"],
+        ["xpath=//input[@id='header-search-action']", "xpath:attributes"],
+        ["xpath=//div[@id='rgw19_65e44690e0d8f']/header/nav/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Neuroimaging"
+    }, {
+      "id": "cdb0ba50-73c5-4fc9-a222-63f8a3d93639",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=header-search-action",
+      "targets": [
+        ["id=header-search-action", "id"],
+        ["name=query", "name"],
+        ["css=#header-search-action", "css:finder"],
+        ["xpath=//input[@id='header-search-action']", "xpath:attributes"],
+        ["xpath=//div[@id='rgw19_65e44690e0d8f']/header/nav/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c6479723-04c2-4f89-acd5-729028bc92ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box__result-item:nth-child(1) .nova-legacy-l-flex__item:nth-child(1) > .nova-legacy-l-flex__item:nth-child(1) .nova-legacy-c-button__label:nth-child(1)",
+      "targets": [
+        ["css=.search-box__result-item:nth-child(1) .nova-legacy-l-flex__item:nth-child(1) > .nova-legacy-l-flex__item:nth-child(1) .nova-legacy-c-button__label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rgw3_65e4469dae22b']/div/div/div/div/div[3]/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "673e631e-f16b-4cb7-a03e-fd304e5fa694",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c5ceeab4-73c0-4007-afdc-175f0ff7c2ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.researchgate.net/"],
+  "plugins": []
+}
